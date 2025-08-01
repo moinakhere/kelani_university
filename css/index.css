@@ -1,0 +1,16 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+frameset {
+    border: none;
+}
+
+frame {
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(190, 80, 80, 0.395);
+    border: none;
+}

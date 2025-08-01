@@ -1,49 +1,10 @@
 <html>
     <head>
-        <style>
-            body {
-                background: linear-gradient(135deg, #A11255 0%, #F67280 100%);
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                height: 100%;
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .notice-container {
-                background: rgba(255,255,255,0.15);
-                border-radius: 20px;
-                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-                padding: 40px 60px;
-                width: 100%; /* Fixed width for marquee */
-                text-align: left;
-                overflow: hidden; /* Hide overflow for marquee effect */
-                position: relative;
-            }
-            .notice-text {
-                font-size: 3rem;
-                font-family: 'Segoe UI', 'Arial', sans-serif;
-                font-weight: 700;
-                color: #427d98;
-                letter-spacing: 2px;
-                text-shadow: 2px 2px 10px #ffffff, 0 1px 0 #427d98;
-                white-space: nowrap;
-                display: inline-block;
-                position: absolute;
-                left: 100%;
-                top: 50%; /* Vertically center */
-                transform: translateY(-50%); /* Adjust for perfect centering */
-                animation: marquee 25s linear infinite;
-            }
-            @keyframes marquee {
-                0%   { left: 100%; }
-                100% { left: -100%; }
-            }
-        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/frame.css">
     </head>
-    <body>
+    <body class="notice-body">
         <div class="notice-container">
             <div class="notice-text">Notice</div>
         </div>
