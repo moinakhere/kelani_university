@@ -3,47 +3,52 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: #12b2dad8;
+                font-family: "Playwrite PL", cursive;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                font-size: 18px;
+                margin: 0;
+                padding: 0;
+            }
+        
+            ul {
+                list-style-type: none;
+                padding: 20px 0 0 0;
+                margin: 0;
+            }
+        
+            li {
+                margin: 20px 0;
+                text-align: left;
+            }
+        
+            a {
+                display: block;
+                padding: 12px 12px;
+                width: 300px;
+                margin-left: 10px;
+                color: #fffbe6ef;
+                background: #cc6a7e;
+                border-radius: 8px;
+                text-decoration: none;
+                transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+                font-weight: 600;
+            }
+        
+            a:hover,
+            a:focus {
+                background: #5c292e;
+                color: #f7c873;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+                transform: scale(1.05);
+            }
+        </style>
     </head>
     <body bgcolor="#BBC019">
         <ul>
-            <style>
-                body {
-                    background-color: #12b2dad8;
-                    font-family: "Playwrite PL", cursive;
-                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-                    font-size: 18px;
-                    margin: 0;
-                    padding: 0;
-                }
-                ul {
-                    list-style-type: none;
-                    padding: 20px 0 0 0;
-                    margin: 0;
-                }
-                li {
-                    margin: 20px 0;
-                    text-align: left;
-                }
-                a {
-                    display: block;
-                    padding: 12px 12px;
-                    width: 300px;
-                    margin-left: 10px;
-                    color: #fffbe6ef;
-                    background: #cc6a7e;
-                    border-radius: 8px;
-                    text-decoration: none;
-                    transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
-                    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
-                    font-weight: 600;
-                }
-                a:hover, a:focus {
-                    background: #5c292e;
-                    color: #f7c873;
-                    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-                    transform: scale(1.05);
-                }
-            </style>
             <li><a href="pages/cpu.html" target="main">CPU</a></li>
             <li><a href="pages/memory.html" target="main">Memory</a></li>
             <li><a href="pages/storage.html" target="main">Storage</a></li>
