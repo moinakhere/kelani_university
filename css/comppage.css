@@ -51,3 +51,61 @@ li {
         font-size: 1em;
     }
 }
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255,255,255,0.08);
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(60, 40, 90, 0.12);
+}
+
+.form label {
+    font-size: 1.2em;
+    color: #FFD54F;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form input,
+.form textarea,
+.form select {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    font-family: inherit;
+    background: rgba(255,255,255,0.18);
+    color: #333;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(60, 40, 90, 0.08);
+}
+
+.form input:focus,
+.form textarea:focus,
+.form select:focus {
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 0 2px #8665A1;
+}
+
+.form button,
+.form input[type="submit"] {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #8665A1 0%, #B39DDB 100%);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(60, 40, 90, 0.15);
+}
+
+.form button:hover,
+.form input[type="submit"]:hover {
+    background: linear-gradient(135deg, #B39DDB 0%, #8665A1 100%);
+    box-shadow: 0 4px 16px rgba(60, 40, 90, 0.18);
+}
