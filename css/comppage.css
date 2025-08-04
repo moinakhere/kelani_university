@@ -67,6 +67,7 @@ Admission Form CSS
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(60, 40, 90, 0.12);
     padding: 40px 40px;
+    align-items: center;
 }
 
 .form label {
