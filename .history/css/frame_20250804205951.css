@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+/*
+Left Sidebar CSS
+*/
+.left-body {
+    background-color: #12b2dad8;
+    font-family: "Playwrite PL", cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.left-menu {
+    list-style-type: none;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.left-list-item {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.left-hyperlink {
+    display: block;
+    padding: 12px 12px;
+    width: 300px;
+    margin-left: 10px;
+    color: #fffbe6ef;
+    background: #cc6a7e;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+    font-weight: 600;
+}
+
+.left-hyperlink:hover{
+    background: #5c292e;
+    color: #f7c873;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transform: scale(0.95);
+}
+
+.left-hyperlink:focus {
+    background: #5c292e;
+    color: #f7c873;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+/*
+Main center piece CSS
+*/
+.main-body {
+    background: linear-gradient(135deg, #0B6875 0%, #1FA2FF 100%);
+    color: #fff;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.main-heading {
+    text-align: center;
+    font-family: "Quintessential", serif;
+    margin-top: 40px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.main-content {
+    text-align: center;
+    font-family: "Playwrite PL", cursive;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/*
+Top Title CSS
+*/
+.top-body {
+    background: linear-gradient(135deg, #1A4468 0%, #27496d 100%);
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ku-title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Newsreader', serif;
+    color: #ff3b3b;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+/*
+Notice CSS
+*/
+.notice-body {
+    background: linear-gradient(135deg, #A11255 0%, #F67280 100%);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notice-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 40px 60px;
+    width: 100%;
+    /* Fixed width for marquee */
+    text-align: left;
+    overflow: hidden;
+    /* Hide overflow for marquee effect */
+    position: relative;
+}
+
+.notice-text {
+    font-size: 3rem;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-weight: 700;
+    color: #427d98;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px #ffffff, 0 1px 0 #427d98;
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    /* Vertically center */
+    transform: translateY(-50%);
+    /* Adjust for perfect centering */
+    animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}

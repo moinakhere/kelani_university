@@ -74,6 +74,20 @@ Main center piece CSS
     letter-spacing: 2px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
+.main-content {
+    text-align: center;
+    font-family: "Playwrite PL", cursive;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    line-height: 1.6;
+    color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 /*
 Top Title CSS
 */
