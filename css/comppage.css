@@ -63,8 +63,7 @@ Admission Form CSS
     flex-direction: column;
     background: rgba(255,255,255,0.08);
     max-width: 1000px;
-    max-height: fit-content;
-    padding: 24px;
+    max-height: none;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(60, 40, 90, 0.12);
     margin: 0px auto;
