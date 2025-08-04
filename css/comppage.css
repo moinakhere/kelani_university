@@ -66,8 +66,8 @@ Admission Form CSS
     max-width: 600px;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(60, 40, 90, 0.12);
-    padding: 40px 40px;
-    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .form label {
