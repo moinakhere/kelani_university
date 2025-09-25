@@ -137,22 +137,3 @@ Admission Form
     color: #FFD54F;
     text-shadow: 1px 2px 8px #5e437a;
 }
-/*
-Notice Page
-*/
-.noticeboard-body{
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-.noticeboard-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.noticeboard-td {
-    border: 1px solid #285995;
-    padding: 8px;
-}
-.noticeboard-th {
-    background-color: #c82a2a;
-    text-align: left;
-}

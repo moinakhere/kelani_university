@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notice Board</title>
-    <link rel="stylesheet" href="css/comppage.css">
     <script src="js/script.js"></script>
     <style>
-        
-        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #285995;
+            padding: 8px;
+        }
+        th {
+            background-color: #c82a2a;
+            text-align: left;
+        }
     </style>
 </head>
-<body clas="noticeboard-body">
-    <table class="noticeboard-table">
+<body>
+    <table>
         <tr>
-            <th class="noticeboard-th">Date</th>
-            <th class="noticeboard-th">Notice</th>
+            <th>Date</th>
+            <th>Notice</th>
         </tr>
         <tr>
-            <td class="noticeboard-td">2024-06-01</td>
-            <td class="noticeboard-td">Welcome to the new semester!</td>
+            <td>2024-06-01</td>
+            <td>Welcome to the new semester!</td>
         </tr>
         <tr>
-            <td class="noticeboard-td">2024-06-05</td>
-            <td class="noticeboard-td">Library will be closed on June 10th.</td>
+            <td>2024-06-05</td>
+            <td>Library will be closed on June 10th.</td>
         </tr>
         <tr>
-            <td class="noticeboard-td">2024-06-10</td>
-            <td class="noticeboard-td">Midterm exams start next week.</td>
+            <td>2024-06-10</td>
+            <td>Midterm exams start next week.</td>
         </tr>
     </table>
 </body>
