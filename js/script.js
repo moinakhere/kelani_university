@@ -19,4 +19,4 @@ function validateForm() {
                 alert("Please enter correct Date of Birth.")
             }
             return true;
-        } 
+        }

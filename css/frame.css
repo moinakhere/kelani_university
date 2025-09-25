@@ -162,3 +162,6 @@ Notice CSS
         left: -100%;
     }
 }
+.notice-link {
+    text-decoration: none;
+}
