@@ -1,6 +1,6 @@
 function validateForm() {
             let email = document.getElementById("email").value;
-            let mobile = document.getElementById("phone").value;
+            let mobile = document.getElementById("mobile").value;
             let dob = document.getElementById("dob").value;
 
             let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
