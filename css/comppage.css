@@ -69,6 +69,7 @@ Admission Form CSS
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(60, 40, 90, 0.12);
     margin: 0px auto;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
